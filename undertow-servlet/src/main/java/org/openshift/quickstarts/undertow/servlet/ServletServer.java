@@ -54,7 +54,7 @@ public class ServletServer {
                     .setDeploymentName("test.war")
                     .addServlets(
                             servlet("MessageServlet", MessageServlet.class)
-                                    .addInitParam("message", "Hello World")
+                                    .addInitParam("message", "Hello World - 18-8-2020 - java starting")
                                     .addMapping("/*"),
                             servlet("MyServlet", MessageServlet.class)
                                     .addInitParam("message", "MyServlet")
